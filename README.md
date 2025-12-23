@@ -1,12 +1,12 @@
 <h1 align="center">Chronic Kidney Disease (CKD) Prediction System</h1>
 <p align="center">
-  <img src="c1.png" width="200" title="System Prototype">
+  <img src="c1.png" width="400" title="System Prototype">
   <br>
   <em>Figure 1: UI 1 </em>
 </p>
 
 <p align="center">
-  <img src="c2.png" width="200" title="Hardware Circuit">
+  <img src="c2.png" width="400" title="Hardware Circuit">
   <br>
   <em>Figure 2: UI 2</em>
 </p>
