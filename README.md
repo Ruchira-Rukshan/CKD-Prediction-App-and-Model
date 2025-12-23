@@ -25,18 +25,20 @@ The Random Forest algorithm was chosen as the primary model due to several key a
 
 
 High Diagnostic Accuracy: Achieved an overall accuracy of 98.03%.
+
 Robustness: Effectively handles high-dimensional data (51 features) without significant overfitting when combined with proper scaling.
+
 Clinical Reliability: Optimized for a 97.38% Recall, ensuring that very few true CKD cases are missed by the system.
 
 📊 Model Performance
 
 
 Metric                 Score
-Accuracy               98.03%
-Precision              98.67%
-Recall (Sensitivity)   97.38%
-F1-Score               98.02%
-AUC Score              0.9993
+,Accuracy               98.03%
+,Precision              98.67%
+,Recall (Sensitivity)   97.38%
+,F1-Score               98.02%
+,AUC Score              0.9993
 
 
 
@@ -45,15 +47,20 @@ AUC Score              0.9993
 
 
 1.Preprocessing: Includes Standard Scaling for feature normalization and SMOTE to balance the training classes (1,219 samples per class).
+
 2.Model: A RandomForestClassifier trained with random_state=42 for reproducibility.
+
 3.Deployment: A real-time web interface built with Gradio, allowing users to input 51 clinical parameters for instant results.
 
 📂 Key Files
 
 
 CKD_App/app.py: The Gradio web application script.
+
 ckd_model.pkl: The serialized Random Forest model.
+
 ckd_scaler.pkl: The StandardScaler used for input normalization.
+
 Chronic_Kidney_Dsease_data.csv: The raw dataset containing 1,659 patient records.
 
 
