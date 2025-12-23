@@ -32,6 +32,8 @@ Clinical Reliability: Optimized for a 97.38% Recall, ensuring that very few true
 
 📊 Model Performance
 
+The Random Forest model was trained on a balanced dataset (using SMOTE) and evaluated using the following metrics:
+
 
 Metric                 Score
 ,Accuracy               98.03%
@@ -78,7 +80,3 @@ pip install gradio joblib numpy pandas scikit-learn
 3.Launch the Predictor:
 python CKD_App/app.py
 
-
-
-
-The Random Forest model was trained on a balanced dataset (using SMOTE) and evaluated using the following metrics:
