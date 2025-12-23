@@ -18,9 +18,9 @@
 This repository contains a specialized Machine Learning system designed for the early detection of Chronic Kidney Disease (CKD). The project focuses on the implementation of a Random Forest Classifier, which was selected for its superior ability to handle complex clinical data and its high diagnostic reliability.
 </p>
 
-🌲 Why Random Forest?
+<h3>🌲 Why Random Forest?</h3>
 
-
+<p>
 The Random Forest algorithm was chosen as the primary model due to several key advantages identified during development:
 
 
@@ -29,10 +29,11 @@ High Diagnostic Accuracy: Achieved an overall accuracy of 98.03%.
 Robustness: Effectively handles high-dimensional data (51 features) without significant overfitting when combined with proper scaling.
 
 Clinical Reliability: Optimized for a 97.38% Recall, ensuring that very few true CKD cases are missed by the system.
+</P>
 
-📊 Model Performance
+<h3>📊 Model Performance</h3>
 
-The Random Forest model was trained on a balanced dataset (using SMOTE) and evaluated using the following metrics:
+<p>The Random Forest model was trained on a balanced dataset (using SMOTE) and evaluated using the following metrics:
 
 
 Metric                 Score
@@ -41,22 +42,23 @@ Metric                 Score
 ,Recall (Sensitivity)   97.38%
 ,F1-Score               98.02%
 ,AUC Score              0.9993
+</p>
 
 
-
-🛠️ Project Architecture
-
+<h3>🛠️ Project Architecture</h3>
 
 
+<p>
 1.Preprocessing: Includes Standard Scaling for feature normalization and SMOTE to balance the training classes (1,219 samples per class).
 
 2.Model: A RandomForestClassifier trained with random_state=42 for reproducibility.
 
 3.Deployment: A real-time web interface built with Gradio, allowing users to input 51 clinical parameters for instant results.
+</p>
 
-📂 Key Files
+<h3>📂 Key Files</h3>
 
-
+<p>
 CKD_App/app.py: The Gradio web application script.
 
 ckd_model.pkl: The serialized Random Forest model.
@@ -64,13 +66,13 @@ ckd_model.pkl: The serialized Random Forest model.
 ckd_scaler.pkl: The StandardScaler used for input normalization.
 
 Chronic_Kidney_Dsease_data.csv: The raw dataset containing 1,659 patient records.
+</p>
 
 
-
-🚀 Getting Started
-
+<h3>🚀 Getting Started</h3>
 
 
+<p>
 1.Clone the Repo:
 git clone https://github.com/yourusername/CKD-Predictor-RandomForest.git
 
@@ -79,4 +81,4 @@ pip install gradio joblib numpy pandas scikit-learn
 
 3.Launch the Predictor:
 python CKD_App/app.py
-
+</p>
