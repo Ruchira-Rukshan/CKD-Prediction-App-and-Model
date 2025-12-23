@@ -12,11 +12,11 @@
 </p>
 
 
-📋 Overview
+<h4>📋 Overview<</h4>
 
-
+<p>
 This repository contains a specialized Machine Learning system designed for the early detection of Chronic Kidney Disease (CKD). The project focuses on the implementation of a Random Forest Classifier, which was selected for its superior ability to handle complex clinical data and its high diagnostic reliability.
-
+</p>
 
 🌲 Why Random Forest?
 
